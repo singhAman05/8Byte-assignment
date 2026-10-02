@@ -1,0 +1,95 @@
+{
+  "breakpoints": {
+    "375": {
+      "name": "overview-subtitle",
+      "viewportWidth": 343,
+      "width": 343,
+      "height": 40,
+      "bones": [
+        [
+          0,
+          0,
+          100,
+          40,
+          8
+        ]
+      ]
+    },
+    "640": {
+      "name": "overview-subtitle",
+      "viewportWidth": 592,
+      "width": 592,
+      "height": 20,
+      "bones": [
+        [
+          0,
+          0,
+          100,
+          20,
+          8
+        ]
+      ]
+    },
+    "768": {
+      "name": "overview-subtitle",
+      "viewportWidth": 720,
+      "width": 720,
+      "height": 20,
+      "bones": [
+        [
+          0,
+          0,
+          100,
+          20,
+          8
+        ]
+      ]
+    },
+    "1024": {
+      "name": "overview-subtitle",
+      "viewportWidth": 960,
+      "width": 960,
+      "height": 20,
+      "bones": [
+        [
+          0,
+          0,
+          100,
+          20,
+          8
+        ]
+      ]
+    },
+    "1280": {
+      "name": "overview-subtitle",
+      "viewportWidth": 1216,
+      "width": 1216,
+      "height": 20,
+      "bones": [
+        [
+          0,
+          0,
+          100,
+          20,
+          8
+        ]
+      ]
+    },
+    "1536": {
+      "name": "overview-subtitle",
+      "viewportWidth": 1216,
+      "width": 1216,
+      "height": 20,
+      "bones": [
+        [
+          0,
+          0,
+          100,
+          20,
+          8
+        ]
+      ]
+    }
+  },
+  "_hash": "6717b12188c0ed5404d92bc2a8663cfe"
+}

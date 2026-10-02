@@ -1,0 +1,60 @@
+{
+	"provider": {
+		"active": "bharatstock",
+		"fallback": "mock",
+		"fallbackOnError": true
+	},
+	"marketData": {
+        "bharatstock": {
+            "baseUrl": "https://bharatstockapi.com",
+            "quotePath": "/v1/stocks/quotes",
+            "fundamentalsPath": "/v1/stocks/{symbol}/ratios",
+            "timeoutMs": 8000,
+            "quoteCacheTtlMs": 15000,
+            "fundamentalsCacheTtlMs": 3600000
+        },
+        "indian-stock-api" : {
+            "baseUrl": "http://65.0.104.9/",
+            "quotePath": "/stock",
+            "timeoutMs": 8000,
+            "quoteCacheTtlMs": 15000,
+            "fundamentalsCacheTtlMs": 3600000
+        },
+        "mock" : {
+            "baseUrl": "http://localhost:3000",
+            "quotePath": "/stock",
+            "timeoutMs": 8000,
+            "quoteCacheTtlMs": 15000,
+            "fundamentalsCacheTtlMs": 3600000
+        }
+	},
+    "providers-list": [
+        {"bharatstock" : "BharatStockProvider"},
+        {"indian-stock-api" : "IndianStockMarketApiProvider"},
+        {"mock" : "MockMarketDataProvider"}
+],
+	"symbolMappings": {
+		"532174.BO": "ICICIBANK",
+		"544252.BO": "BAJAJHFL",
+		"542651.BO": "KPITTECH",
+		"544028.BO": "TATATECH",
+		"544107.BO": "BLSE",
+		"532790.BO": "TANLA",
+		"532540.BO": "TATACONSUM",
+		"500331.BO": "PIDILITIND",
+		"500400.BO": "TATAPOWER",
+		"542323.BO": "KPIGREEN",
+		"532667.BO": "SUZLON",
+		"542851.BO": "GENSOL",
+		"543517.BO": "HARIOMPIPE",
+		"542652.BO": "POLYCAB",
+		"543318.BO": "CLEAN",
+		"506401.BO": "DEEPAKNTR",
+		"541557.BO": "FINEORG",
+		"533282.BO": "GRAVITA",
+		"540719.BO": "SBILIFE",
+		"500209.BO": "INFY",
+		"543237.BO": "HAPPSTMNDS",
+		"543272.BO": "EASEMYTRIP"
+	}
+}
