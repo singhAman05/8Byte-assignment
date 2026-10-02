@@ -46,7 +46,7 @@ If no key is provided, the dashboard automatically uses the bundled mock/snapsho
 npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000).
+Open [Live-Link](https://8byte-assignment-ten.vercel.app/).
 
 ### Other scripts
 
